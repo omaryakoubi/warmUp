@@ -9,3 +9,25 @@
     • Write a function searchMates that, given a query and an array of Mates,
       searches the array of mates for "matching" mate. You will decide what way you want to write your search algorithm.
 */
+
+var classMates = [
+  { name: { first: 'Houssem', middle: 'Eddine', last: 'Abedelli' }, age: 33 },
+  { name: { first: 'Taha', last: 'Khelfa' }, age: 39 },
+  { name: { first: 'Firas', last: 'Mrad' }, age: 24 },
+  { name: { first: 'Ali', last: 'Soudani' }, age: 28 },
+  { name: { first: 'Wala', last: 'Abdellaoui' }, age: 29 }
+];
+
+var array = [classMates];
+console.log(array)
+
+function displayFriends(object) {
+  return Object.values(classMates)
+
+}
+
+function addFriends(object, add) {
+  return Object.push(add);
+}
+
+
