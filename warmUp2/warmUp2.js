@@ -8,7 +8,7 @@ function multiply(x, y) {
     return (x * y);
 }
 
-// 3-complete the following function that Convert Fahrenheit to Celsius if the module for converting is 
+// 3-complete the following function that Convert Fahrenheit to Celsius if the module for converting is
 // 	(5/9) * (fahrenheit-32);
 function toCelsius(fahrenheit) {
     var celsius = ((5 / 9) * (fahrenheit - 32))

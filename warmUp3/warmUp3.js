@@ -45,12 +45,12 @@ function factorial(number) {
 }
 //5) write a function named decimals
 //- the function will format a number up to specified decimal places
-//- the function will return a string 
-//- if the parameters not a number return false 
+//- the function will return a string
+//- if the parameters not a number return false
 // ex :
-//      decimals(2100, 'a') ==> false 
-//      decimals('a', 5) ==> false 
+//      decimals(2100, 'a') ==> false
+//      decimals('a', 5) ==> false
 //      decimals(2.100212, 2) ==> '2.10'
 //      decimals(2.100212, 3) ==> '2.100'
 //      decimals(2100, 2) ==> '2100.00'
-//      
+//
