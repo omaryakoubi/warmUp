@@ -2,15 +2,14 @@
 // objKey({name:'ahmed',age:20}) ==> ['name','age']
 
 function objKey(obj) {
-  return (Object.keys(obj))
-
+  return Object.keys(obj);
 }
 
 // 2 - Write a function named objLength to get the length of a JavaScript object
 // objLength({name:'ahmed',age:20}) ==> 2
 
 function objLength(obj) {
-  return (Object.keys(obj)).length
+  return Object.keys(obj).length;
 }
 
 // 3 - Write a function named objSort to sort an array of JavaScript objects based on the id

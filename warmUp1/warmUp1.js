@@ -6,31 +6,28 @@
 // your code is here
 
 //Exercise 1
-var firstName = "Omar"
-var lastName = "Yakoubi"
-console.log(fistName + " " + lastname)
-
+var firstName = "Omar";
+var lastName = "Yakoubi";
+console.log(fistName + " " + lastname);
 
 //Exercise 2
-var x = 13
-if (x % 3= 0) {
-	return x "Is a multiple of" 3
+function isMultipleOf13(num) {
+  if (num % 3 === 0) {
+    return x + "Is a multiple of" + 3;
+  }
+  return x + "Not a multiple if" + 3;
 }
-return x "Not a multiple if" 3
-
 
 //Exercise 3
-var ages = [13, 14, 13, 15, 16, 17, 19, 13, 16, 15]
 function averageAge(array) {
-	var average = 0
-	for (var i = 0; i < ages.length; i++) {
-		average = (ages[i] / ages.length) + average
-	}
-	return (average)
+  var average = 0;
+  for (var i = 0; i < array.length; i++) {
+    average = array[i] / array.length + average;
+  }
+  return average;
 }
-
 
 //Exercise 4
 function ageInSeconds(age) {
-	return (age * 365.25 * 24 * 60 * 60)
-} 
+  return age * 365.25 * 24 * 60 * 60;
+}
